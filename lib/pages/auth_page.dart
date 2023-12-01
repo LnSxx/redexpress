@@ -16,8 +16,9 @@ class _AuthPageState extends State<AuthPage> {
     return Scaffold(
       appBar: AppBar(
         title: Image.asset(
-          'images/logolarge.png',
+          'images/appbar.png',
           height: 40,
+          color: Colors.white,
         ),
         centerTitle: true,
         backgroundColor: const Color(0xFFF93A3A),
